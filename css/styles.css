@@ -91,7 +91,7 @@ body {
   color: white;
   justify-content: center;
 }
-.main .banner .banner-header1 {
+.main .banner .banner-header {
   font-weight: bold;
   font-size: 56px;
   letter-spacing: 0.02em;
@@ -130,7 +130,7 @@ body {
 .section-first ul li:last-child {
   margin-right: 0px;
 }
-.section-first ul li .sec-header3 {
+.section-first ul li .sec-header {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
