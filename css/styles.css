@@ -132,8 +132,14 @@ body {
 }
 .section-first ul li .sec-header3 {
   color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
-.section-first ul li p {
+.section-first ul li .sec-par {
+  font-size: 16px;
+  line-height: 1.5;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
