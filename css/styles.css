@@ -153,9 +153,9 @@ body {
 .section-second ul {
   list-style: none;
 }
-.section-second h2 {
+.section-second .sec-header {
   color: var(--NAVY-BLUE, #2e2f42);
-
+  line-height: 1.11;
   font-family: Roboto;
   font-size: 36px;
   font-style: normal;
@@ -164,14 +164,27 @@ body {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   margin-bottom: 72px;
+  text-align: center;
 }
-.section-second ul li {
+.section-second ul .item {
   justify-content: center;
   background: var(--WHITE, #fff);
   margin-right: 24px;
 }
-.section-second ul li:last-child {
+.section-second ul .item:last-child {
   margin-right: 0px;
+}
+.section-second ul .item .item-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section-second ul .item .item-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .section-third {
 }
