@@ -31,10 +31,10 @@ body {
 }
 .header nav ul {
 }
-.header nav ul .first-item a {
+.header nav ul .first-item {
   color: #2e2f42;
 }
-.header nav ul .first-item a:focus {
+.header nav ul .first-item:focus {
   color: #404bbf;
 }
 .header nav ul li {
