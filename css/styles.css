@@ -7,8 +7,7 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-.header {
-}
+
 .header nav {
   background-color: #ffffff;
   color: #2e2f42;
@@ -28,8 +27,6 @@ body {
 
 .logo span {
   color: #2e2f42;
-}
-.header nav ul {
 }
 .header nav ul .item {
   color: #2e2f42;
@@ -62,8 +59,6 @@ body {
   margin: 24px 156px;
   font-style: normal;
 }
-.header .address ul {
-}
 .header .address ul li {
   margin-left: 40px;
 }
@@ -76,7 +71,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.32px;
 }
 .header .address a:hover {
@@ -185,8 +180,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.section-third {
-}
 .section-third .header {
   margin-top: 120px;
   color: var(--NAVY-BLUE, #2e2f42);
@@ -209,8 +202,6 @@ body {
   margin-right: 24px;
   margin-bottom: 48px;
 }
-.section-third ul li img {
-}
 .section-third ul li:nth-child(3n + 3) {
   margin-right: 0px;
 }
@@ -221,7 +212,7 @@ body {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 24px;
   letter-spacing: 0.4px;
   margin-left: 20px;
   margin-bottom: 8px;
@@ -229,36 +220,29 @@ body {
 .section-third ul li .par {
   color: var(--SLATE, #434455);
 
-  /* Body */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.32px;
   margin-left: 20px;
 }
-/* .section-third ul li .container {
-  background: var(--WHITE, #fff);
-  margin-top: -4px;
-} */
+
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
   justify-content: center;
 }
-.footer p {
+.footer .paragraph {
   color: var(--CLOUD, #f4f4fd);
-
-  /* Body */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.32px;
 }
-.hover-card:hover img {
-}
+
 .hover-card .placeholder {
   background-color: #4d5ae5;
   color: white;
@@ -266,14 +250,13 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
 }
-.hover-card:hover .placeholder {
-}
-.hover-card:hover .container {
-  background: var(--WHITE, #fff);
-}
+
 .footer .logo {
   margin-bottom: 17.5px;
-  color: white;
+  color: #4d5ae5;
+}
+.footer .logo .logo-text {
+  color: #f4f4fd;
 }
