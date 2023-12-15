@@ -130,7 +130,7 @@ body {
 .section-first ul li:last-child {
   margin-right: 0px;
 }
-.section-first ul li h3 {
+.section-first ul li .sec-header3 {
   color: #2e2f42;
 }
 .section-first ul li p {
