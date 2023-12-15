@@ -160,7 +160,6 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
   margin-bottom: 72px;
@@ -188,7 +187,7 @@ body {
 }
 .section-third {
 }
-.section-third h2 {
+.section-third .header {
   margin-top: 120px;
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -197,7 +196,7 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   margin-bottom: 72px;
@@ -215,7 +214,7 @@ body {
 .section-third ul li:nth-child(3n + 3) {
   margin-right: 0px;
 }
-.section-third ul li h3 {
+.section-third ul li .header {
   color: var(--NAVY-BLUE, #2e2f42);
 
   font-family: Roboto;
@@ -227,7 +226,7 @@ body {
   margin-left: 20px;
   margin-bottom: 8px;
 }
-.section-third ul li p {
+.section-third ul li .par {
   color: var(--SLATE, #434455);
 
   /* Body */
@@ -239,10 +238,10 @@ body {
   letter-spacing: 0.32px;
   margin-left: 20px;
 }
-.section-third ul li .container {
+/* .section-third ul li .container {
   background: var(--WHITE, #fff);
   margin-top: -4px;
-}
+} */
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
   justify-content: center;
