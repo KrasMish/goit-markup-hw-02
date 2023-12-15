@@ -91,22 +91,31 @@ body {
   color: white;
   justify-content: center;
 }
-.main .banner h1 {
+.main .banner .banner-header1 {
   font-weight: bold;
   font-size: 56px;
   letter-spacing: 0.02em;
   line-height: 60px;
+  line-height: 1.07;
+  text-align: center;
 }
-.main .banner button {
+.main .banner .main-button {
+  cursor: pointer;
   background: var(--IRIS, #4d5ae5);
   color: white;
   margin-top: 48px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
 }
-.main .banner button:hover {
+.main .banner .main-button:hover {
+  background-color: #404bbf;
+}
+.main .banner .main-button:focus {
   background-color: #404bbf;
 }
 
